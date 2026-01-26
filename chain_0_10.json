@@ -1,0 +1,266 @@
+[
+  {
+    "hash": "0000ccee654c8a6076b287006bfb73e21230c66e655a4f4db9c58be56990a48d",
+    "header": {
+      "difficulty": 2,
+      "height": 0,
+      "name": "Unified Rigidity Coin",
+      "nonce": 105659,
+      "parent": "0000000000000000000000000000000000000000000000000000000000000000",
+      "seed": "URC::GENESIS::2026-01-26::V1",
+      "ticker": "URC",
+      "time": 1706250000
+    },
+    "txs": [
+      {
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "GENESIS",
+            "amount": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "0000127daf2570bcf2558752e3f9e433f7576a81ebdd6b833e4d46c01b87ceb6",
+    "header": {
+      "difficulty": 2,
+      "height": 1,
+      "name": "Unified Rigidity Coin",
+      "nonce": 10748,
+      "parent": "0000ccee654c8a6076b287006bfb73e21230c66e655a4f4db9c58be56990a48d",
+      "seed": "",
+      "ticker": "URC",
+      "time": 1706250600
+    },
+    "txs": [
+      {
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "MINER",
+            "amount": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "0000209403906e1233abb371e44e4eb59039db9fde2845a3ef49dfae9be22939",
+    "header": {
+      "difficulty": 2,
+      "height": 2,
+      "name": "Unified Rigidity Coin",
+      "nonce": 14592,
+      "parent": "0000127daf2570bcf2558752e3f9e433f7576a81ebdd6b833e4d46c01b87ceb6",
+      "seed": "",
+      "ticker": "URC",
+      "time": 1706251200
+    },
+    "txs": [
+      {
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "MINER",
+            "amount": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "0000ea6716c66a23e4025900d24d49eb51d904a745a51bbe659d10611149f398",
+    "header": {
+      "difficulty": 2,
+      "height": 3,
+      "name": "Unified Rigidity Coin",
+      "nonce": 9326,
+      "parent": "0000209403906e1233abb371e44e4eb59039db9fde2845a3ef49dfae9be22939",
+      "seed": "",
+      "ticker": "URC",
+      "time": 1706251800
+    },
+    "txs": [
+      {
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "MINER",
+            "amount": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "000018c6b3eccf4f9ac848889eb330c72465b1dfbc521077bf1f88e1724815d5",
+    "header": {
+      "difficulty": 2,
+      "height": 4,
+      "name": "Unified Rigidity Coin",
+      "nonce": 212694,
+      "parent": "0000ea6716c66a23e4025900d24d49eb51d904a745a51bbe659d10611149f398",
+      "seed": "",
+      "ticker": "URC",
+      "time": 1706252400
+    },
+    "txs": [
+      {
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "MINER",
+            "amount": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "00006c1f11093d16640b6899e5af90807e13a3d5bb44b84ae1b1ab857f4c77ed",
+    "header": {
+      "difficulty": 2,
+      "height": 5,
+      "name": "Unified Rigidity Coin",
+      "nonce": 167623,
+      "parent": "000018c6b3eccf4f9ac848889eb330c72465b1dfbc521077bf1f88e1724815d5",
+      "seed": "",
+      "ticker": "URC",
+      "time": 1706253000
+    },
+    "txs": [
+      {
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "MINER",
+            "amount": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "00005eb40f1031c230f10cc61a7df64a3602b673745d1f26a9cb62cffa7e782a",
+    "header": {
+      "difficulty": 2,
+      "height": 6,
+      "name": "Unified Rigidity Coin",
+      "nonce": 94792,
+      "parent": "00006c1f11093d16640b6899e5af90807e13a3d5bb44b84ae1b1ab857f4c77ed",
+      "seed": "",
+      "ticker": "URC",
+      "time": 1706253600
+    },
+    "txs": [
+      {
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "MINER",
+            "amount": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "0000f9528e79d796052df1c0776dd549cd8249deae012a497a1f1ff5afc67f4e",
+    "header": {
+      "difficulty": 2,
+      "height": 7,
+      "name": "Unified Rigidity Coin",
+      "nonce": 23315,
+      "parent": "00005eb40f1031c230f10cc61a7df64a3602b673745d1f26a9cb62cffa7e782a",
+      "seed": "",
+      "ticker": "URC",
+      "time": 1706254200
+    },
+    "txs": [
+      {
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "MINER",
+            "amount": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "0000146720d0475244809b636b1900d78e274900b97b88d6c4bfb3dba94e31ca",
+    "header": {
+      "difficulty": 2,
+      "height": 8,
+      "name": "Unified Rigidity Coin",
+      "nonce": 294277,
+      "parent": "0000f9528e79d796052df1c0776dd549cd8249deae012a497a1f1ff5afc67f4e",
+      "seed": "",
+      "ticker": "URC",
+      "time": 1706254800
+    },
+    "txs": [
+      {
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "MINER",
+            "amount": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "000001d34da18a85feeb83e5bcaee747a9388748520303f973ef2fc7dd7b85df",
+    "header": {
+      "difficulty": 2,
+      "height": 9,
+      "name": "Unified Rigidity Coin",
+      "nonce": 86934,
+      "parent": "0000146720d0475244809b636b1900d78e274900b97b88d6c4bfb3dba94e31ca",
+      "seed": "",
+      "ticker": "URC",
+      "time": 1706255400
+    },
+    "txs": [
+      {
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "MINER",
+            "amount": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "hash": "00000f7804aff1749279d6dabfa0112ad4f31e7f628ce6c9827a621c757fd9e9",
+    "header": {
+      "difficulty": 2,
+      "height": 10,
+      "name": "Unified Rigidity Coin",
+      "nonce": 78521,
+      "parent": "000001d34da18a85feeb83e5bcaee747a9388748520303f973ef2fc7dd7b85df",
+      "seed": "",
+      "ticker": "URC",
+      "time": 1706256000
+    },
+    "txs": [
+      {
+        "inputs": [],
+        "outputs": [
+          {
+            "address": "MINER",
+            "amount": 50
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -30,3 +30,15 @@ def connect(host, on_msg):
     s.connect((host, PORT))
     threading.Thread(target=handle_peer,args=(s,(host,PORT),on_msg),daemon=True).start()
     return s
+
+from urc_peers import initial_peers
+
+def bootstrap(on_msg):
+    socks = []
+    for h in initial_peers():
+        try:
+            s = connect(h, on_msg)
+            socks.append(s)
+        except:
+            pass
+    return socks

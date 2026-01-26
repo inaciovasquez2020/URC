@@ -1,0 +1,24 @@
+{
+  "hash": "0000ccee654c8a6076b287006bfb73e21230c66e655a4f4db9c58be56990a48d",
+  "header": {
+    "difficulty": 2,
+    "height": 0,
+    "name": "Unified Rigidity Coin",
+    "nonce": 105659,
+    "parent": "0000000000000000000000000000000000000000000000000000000000000000",
+    "seed": "URC::GENESIS::2026-01-26::V1",
+    "ticker": "URC",
+    "time": 1706250000
+  },
+  "txs": [
+    {
+      "inputs": [],
+      "outputs": [
+        {
+          "address": "GENESIS",
+          "amount": 50
+        }
+      ]
+    }
+  ]
+}

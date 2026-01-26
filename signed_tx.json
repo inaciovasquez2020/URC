@@ -1,0 +1,15 @@
+{
+  "inputs": [
+    {
+      "prev_tx": "893b8eb3570edea9529f81f44d9a153a673280903784d3006568fbdc6264ae29",
+      "index": 0,
+      "sig": "8b9121d1702206d8c19936dcfe66cf4f866df7bb1f91b1fff997bc2cdaae52f45b8000dbc51ae87a790dcf30b19af28fce407f65a4ef8889d541fc23531baf02"
+    }
+  ],
+  "outputs": [
+    {
+      "address": "DzsjV6SRAUpoNc6z724TaFrVpTQgtrmGKyB1tVQA3GPG",
+      "amount": 50
+    }
+  ]
+}

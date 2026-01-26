@@ -1,0 +1,9 @@
+{
+  "tip": "00002370c532c438b641b90deb9ed39928bb43d95b11d80d6c0df6ef42528149",
+  "utxo": {
+    "808467f74b69d2ed8ba2a161994d491b967b1743ca58aa8fa975b84b428fbb6b:0": {
+      "address": "DzsjV6SRAUpoNc6z724TaFrVpTQgtrmGKyB1tVQA3GPG",
+      "amount": 50
+    }
+  }
+}
