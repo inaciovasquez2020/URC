@@ -1,0 +1,66 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb,geometry}
+\geometry{margin=1in}
+
+\title{Unified Rigidity Coin (URC): Protocol Contract and Security Model}
+\author{Inacio F. Vasquez}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section*{Protocol Contract (Normative)}
+
+URC is defined by the following invariants.
+
+\paragraph{(I1) Cryptographic ownership.}
+A spend of UTXO $u$ is valid only if the input public key equals the stored UTXO public key.
+
+\paragraph{(I2) Ed25519 authentication.}
+For every non-coinbase transaction $tx$ with input $(pk, sig)$,
+\[
+\mathrm{Verify}\big(pk,\ \mathrm{canon}(tx \setminus sig),\ sig\big)=\top.
+\]
+
+\paragraph{(I3) No inflation.}
+For every non-coinbase transaction $tx$,
+\[
+\sum \mathrm{in}(tx) \ge \sum \mathrm{out}(tx).
+\]
+
+\paragraph{(I4) No double-spend.}
+Every UTXO key may appear in inputs at most once (block-local and mempool-global).
+
+\paragraph{(I5) Checkpoint safety.}
+If $h\in \mathrm{dom}(\mathrm{CHECKPOINTS})$, then
+\[
+\mathrm{hash}(B_h)=\mathrm{CHECKPOINTS}[h].
+\]
+
+\paragraph{(I6) Proof-of-Work validity.}
+\[
+\mathrm{int}(\mathrm{SHA256}(\mathrm{canon}(\mathrm{header})),16) < T_0.
+\]
+
+\paragraph{(I7) Fee-based mempool ordering.}
+Transactions are ordered by fee-per-byte:
+\[
+tx_1 \prec tx_2 \iff 
+\frac{\mathrm{fee}(tx_1)}{|\mathrm{canon}(tx_1)|} >
+\frac{\mathrm{fee}(tx_2)}{|\mathrm{canon}(tx_2)|}.
+\]
+
+\section*{Threat Model and Non-Claim}
+
+The adversary may control:
+\begin{itemize}
+\item the network,
+\item message ordering,
+\item and arbitrary computational resources.
+\end{itemize}
+
+URC explicitly does \textbf{not} claim asymptotic security accumulation.  
+Security is structural, not economic.
+
+\end{document}
+
