@@ -1,0 +1,1 @@
+/Users/inaciof.vasquez/URC/rust-urc/target/debug/rust-urc: /Users/inaciof.vasquez/URC/rust-urc/src/main.rs /Users/inaciof.vasquez/URC/rust-urc/src/wallet/mod.rs
