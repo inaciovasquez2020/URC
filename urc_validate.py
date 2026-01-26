@@ -69,3 +69,12 @@ def mempool_admit(tx, utxo, mempool):
 
     validate_tx(tx, utxo, allow_coinbase=False)
     return True
+
+def fee(tx, utxo):
+    if tx["inputs"]==[]: return 0
+    tin = sum(utxo[f'{i["prev_tx"]}:{i["index"]}']["amount"] for i in tx["inputs"])
+    tout = sum(o["amount"] for o in tx["outputs"])
+    return tin - tout
+
+def mempool_sort(mempool, utxo):
+    return sorted(mempool, key=lambda tx: fee(tx,utxo)/len(canon(tx)), reverse=True)
