@@ -1,0 +1,12 @@
+name: URC Rust
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  rust:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Rust build disabled for packaging"
+
