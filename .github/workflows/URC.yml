@@ -1,5 +1,12 @@
-test:
-  runs-on: ubuntu-latest
-  steps:
-    - run: echo "CI disabled for packaging"
+name: URC CI
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "CI disabled for packaging"
 
