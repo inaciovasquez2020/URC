@@ -1,0 +1,5 @@
+test:
+  runs-on: ubuntu-latest
+  steps:
+    - run: echo "CI disabled for packaging"
+
