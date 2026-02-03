@@ -1,12 +1,13 @@
-name: URC Disabled
-
-on:
-  push:
-    branches: [ "main" ]
-
+- name: Install maturin
+  run: pip install maturin
 jobs:
-  disabled:
+  test:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "URC Rust workflow disabled"
+      - uses: actions/checkout@v4
+
+      - name: Install maturin
+        run: pip install maturin
+
+      - run: cd urc-rs && maturin develop
 
