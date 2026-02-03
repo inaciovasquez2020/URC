@@ -1,3 +1,4 @@
+# force run
 name: publish-ghcr
 
 on:
