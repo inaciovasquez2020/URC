@@ -2,8 +2,7 @@ name: publish-ghcr
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
 
 permissions:
   contents: read
@@ -29,3 +28,4 @@ jobs:
           file: Dockerfile
           push: true
           tags: ghcr.io/inaciovasquez2020/urc:latest
+
