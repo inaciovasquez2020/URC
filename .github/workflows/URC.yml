@@ -1,12 +1,12 @@
-name: URC CI
+name: URC Disabled
 
 on:
   push:
     branches: [ "main" ]
 
 jobs:
-  test:
+  disabled:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "CI disabled for packaging"
+      - run: echo "URC Rust workflow disabled"
 
