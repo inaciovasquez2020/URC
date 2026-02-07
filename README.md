@@ -21,6 +21,10 @@ This repository is a registered module of the Vasquez Index. Stable references, 
 * **Reproducibility:** To ensure consistent computational results, utilize the environment configurations defined in the `scientific-infrastructure` module.
 * **Scope:** This repository focuses on the formal calculus and logic structures of the URC system.
 
+## Project Context
+- Scientific framework: https://inaciovasquez2020.github.io
+- Index: https://inaciovasquez2020.github.io/vasquez-index/
+
 ## Citation
 If you use this research or implementation in your work, please cite it as follows:
 
